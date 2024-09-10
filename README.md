@@ -82,3 +82,17 @@ nvm install v18.13.0
 ```
 apt install screen
 ```
+# Open port
+```
+sudo ufw enable
+```
+# Allow port yang wajib
+```
+sudo ufw allow 80
+```
+```
+sudo ufw allow 8080
+```
+```
+sudo ufw allow 22
+```
